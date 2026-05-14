@@ -1,21 +1,28 @@
 .footer {
-  padding: 20px 0;
+border-top: 1px solid #242c3a;
 }
-.footer-desc {
-  text-align: center;
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
-.footer-link {
-  position: relative;
+
+.footer-navigation {
+  display: flex;
+justify-content: center;
+  font-size: 16px;
+  gap: 64px;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+
+.footer-text {
+font-size: 16px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-container {
+flex-direction: row-reverse;
+justify-content: space-between;
+    gap: 50px;
+  }
 }
