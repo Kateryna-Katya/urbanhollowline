@@ -1,0 +1,76 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./main.css');
+@import url('./footer.css');
+
+.background {
+    text-align: left;
+font-size: 14px;
+}
+
+.privacy-title {
+    margin: 70px auto 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Antonio", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #627186;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-site {
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.break {
+    word-break: break-all;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.underline {
+    font-weight: 700;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+
+}
