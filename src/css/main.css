@@ -201,3 +201,26 @@ box-shadow: 0 8px 11px 0 rgba(98, 113, 134, 0.4);
 width: 136px;
 }
 }
+/* Level Design */
+.level-section{
+    background-image: url("/img/level/mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 1074px;
+}
+.level-text{
+    margin-top: 56px;
+    width: 323px;
+}
+@media only screen and (min-width: 1440px) {
+.level-section {
+background-image: url("/img/level/desk.png");
+height: 1019px;
+}
+
+    .level-text {
+        margin-top: 64px;
+        width: 656px;
+    }
+}
