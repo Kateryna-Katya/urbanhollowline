@@ -224,3 +224,74 @@ height: 1019px;
         width: 656px;
     }
 }
+/* Why You’ll Enjoy It */
+.why-section{
+    background-image: url("/img/why/mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.why-text{
+    margin-top: 56px;
+    width: 313px;
+}
+.why-list{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.why-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 12px;
+        padding: 24px 16px;
+        width: 343px;
+        height: 112px;
+background: linear-gradient(180deg, #0b0e14 0%, #1d232d 100%);
+}
+.why-item-title{
+    font-weight: 100;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #6be7ff;
+}
+.why-item-text{
+        font-size: 16px;
+        text-align: center;
+        color: #627186;
+}
+@media only screen and (min-width: 1440px) {
+.why-section {
+        background-image: url("/img/why/desk.png");
+}
+.why-text {
+        margin-top: 64px;
+        width: 100%;
+    }
+.why-list {
+        margin-top: 64px;
+        flex-direction: row;
+        justify-content: center;
+       gap: 32px;
+    }
+
+    .why-item {
+        gap: 16px;
+        border-radius: 12px;
+        padding: 24px 16px;
+width: 260px;
+    height: 136px;
+    }
+
+    .why-item-title {
+    }
+
+    .why-item-text {
+width: 158px;
+    }
+}
