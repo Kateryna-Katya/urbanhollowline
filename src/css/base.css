@@ -24,13 +24,3 @@ h2{
   background: linear-gradient(90deg, #0b0f14 20%, #1d232d 50%, #0b0f14 80%);
   margin-bottom: 64px;
 }
-h3{
-  font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.5;
-    text-transform: uppercase;
-    text-align: center;
-    color: #627186;
-    margin-bottom: 56px;
-}

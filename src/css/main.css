@@ -46,3 +46,46 @@ font-size: 32px;
     text-align: left;
 }
 }
+/* About the Game */
+.about-section{
+position: relative;
+    overflow: hidden;
+
+}
+.about-section::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background-image: url('/img/about/mob.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    mix-blend-mode: color-dodge;
+
+    pointer-events: none;
+    z-index: 0;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-text{
+    margin-top: 56px;
+    width: 323px;
+}
+@media only screen and (min-width: 1440px) {
+.about-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url('/img/about/desk.png');
+}
+ .about-text {
+        margin-top: 64px;
+        width: 100%;
+    }
+}
