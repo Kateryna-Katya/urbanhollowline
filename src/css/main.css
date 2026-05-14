@@ -346,3 +346,20 @@ background: #2c394d;
     right: 10%;
   }
 }
+/* Contact */
+.contact-text{
+    margin-top: 56px;
+    font-size: 16px;
+}
+.contact-link{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.contact-text{
+    margin-top: 64px;
+}
+}
