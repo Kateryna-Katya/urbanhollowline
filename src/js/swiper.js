@@ -13,7 +13,7 @@ const gallerySwiper = new Swiper('.gallery-swiper', {
   loop: true,
   speed: 600,
 
-  slidesPerView: 1,
+  slidesPerView: 1.2,
   spaceBetween: 16,
 
   navigation: {
@@ -23,7 +23,7 @@ const gallerySwiper = new Swiper('.gallery-swiper', {
 
   breakpoints: {
     1440: {
-      slidesPerView: 6,
+      slidesPerView: 3.2,
       spaceBetween: 24,
     },
   },
